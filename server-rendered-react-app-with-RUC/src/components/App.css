@@ -1,0 +1,16 @@
+html, body  {
+   color: #fff;
+   font-family: sans-serif;
+   overflow: hidden;
+}
+
+
+.loading {
+   opacity: 0;
+   transition: opacity 500ms;
+}
+
+:not(.loading) {
+   opacity: 1;
+   transition: opacity 500ms;
+}
